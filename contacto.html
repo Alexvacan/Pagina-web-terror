@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacto</title>
+    <link rel="stylesheet" href="contacto.css">
+</head>
+<body>
+    <header>
+        <div class="contenedor-header">
+            <img src="img/logo2.webp" alt="Logo" class="imagen-header">
+            <nav class="enlaces">
+                <a href="index.html">Hogar</a>
+                <a href="about.html">Acerca</a>
+                <a href="contacto.html">Contacto</a>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <!-- Título de la pagina -->
+        <div class="contenedor-titulo">
+            <h2>CONTACTO</h2>
+        </div>
+
+        <div class="contenedor-contacto">
+            <div class="caja-izquierda">
+                <h3>Información de Contacto</h3>
+                <p>Teléfono: 123-456-789</p>
+                <p>Dirección: Av siempre muerto 123</p>
+                <p>Email: sustos&gustos@gmail.com</p>
+
+                <!-- Redes sociales -->
+                <div class="redes-sociales">
+                    <a href="https://www.facebook.com" target="_blank">
+                        <img src="img/facebook.png" alt="Facebook">
+                    </a>
+                    <a href="https://www.twitter.com" target="_blank">
+                        <img src="img/twiter.png" alt="Twitter">
+                    </a>
+                    <a href="https://www.instagram.com" target="_blank">
+                        <img src="img/insta.png" alt="Instagram">
+                    </a>
+                </div>
+            </div>
+
+            <!--Formulario -->
+            <div class="caja-derecha">
+                <h3>Formulario de Contacto</h3>
+                <form action="#" method="POST">
+                    <div class="campo">
+                        <label for="nombre">Nombre:</label>
+                        <input type="text" id="nombre" name="nombre" required>
+                    </div>
+                    <div class="campo">
+                        <label for="email">Correo electrónico:</label>
+                        <input type="email" id="email" name="email" required>
+                    </div>
+                    <div class="campo">
+                        <label for="mensaje">Mensaje:</label>
+                        <textarea id="mensaje" name="mensaje" rows="4" required></textarea>
+                    </div>
+                    <div class="campo">
+                        <button type="submit" class="btn">Enviar</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+
+        <div class="contenedor-mapa">
+            <h2>Encuentra nuestra ubicación</h2>
+            <div class="caja-mapa">
+                <img src="img/mapa.jpeg" alt="Mapa de ubicación" class="imagen-mapa">
+            </div>
+        </div>
+
+    </main>
+
+    <footer>
+        <div class="footer">Copyright © 2024 UCB | Powered by Alexander Vacaflores</div>
+    </footer>
+
+</body>
+</html>
